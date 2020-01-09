@@ -1,13 +1,13 @@
 import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
 
-import Main from './Main/index'
-import Header from './Header/index'
+import Main from './pages/Main/index'
+import User from './pages/User/index'
 
 const Routes = createAppContainer(
     createStackNavigator({
-        Header,
-        Main
+        Main,
+        User
     }, {
         defaultNavigationOptions: {
             headerTitleAlign: 'center',
